@@ -1,21 +1,4 @@
-//?corecciones a realizar
-
-    /* 
-    !1) La estructura arrayEleccion podria ser simplemente un array y generar la elección aleatoria del CPU en base a la posición redondeada (0, 1 o 2).
-
-    !2) Para seguir buenas practicas y ordenar el codigo, podrias generar las variables del proceso directamente dentro del bucle (cpu y eleccion). 
-    !De esta manera podrias colocar argumentos en las funciones fnRivalCpu y fnUsuario para utilizarlas en orden a la selección del usuario en cada ronda.
-
-    !3) Respecto a los condicionales if/else dentro de las funciones: 
-
-        !a) dentro de la funcion fnRivalCpu deberias tomar como argumento el numero aleatorio generado y simplemente devolver el resultado en orden al array base "arrayEleccion"
-
-        !b)dentro de las funciones fnUsuario y fnVersus, seria mas apropiado utilizar un condicional switch en lugar de if/else
-
-    *4) Deberias realizar un uso apropiado de objetos y arrays. Una idea para implementarlo seria construyendo una tabla de posiciones (tomar nombre del usuario, controlar cuantas rondas gana por bucle. En base a esto crear un constructor que genere el ranking del usuario en un objeto y colocarlo en un array "posiciones". En caso de que el usuario lo solicite, podria consultar la tabla y el proceso devolver este array ordenado por mayores rondas).
-    */
-
-    // Piedra papel o tijera
+// Piedra papel o tijera
 
 //? DOM
 const btnPiedra = document.getElementById("piedra");

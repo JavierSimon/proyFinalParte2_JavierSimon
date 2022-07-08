@@ -23,7 +23,7 @@ button{
     height: 100vh;
     /* max-height: 745px; */
     margin: 0 auto;
-    background-color: #ffb74d;
+    background-color: rgba(255, 183, 77, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: space-around;

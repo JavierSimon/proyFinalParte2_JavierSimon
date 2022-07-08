@@ -283,7 +283,7 @@ btnReset.addEventListener("click", () => {
         btnReset.hidden = true
         
         texto.innerHTML = "Elija una opcion"
-        texto.style.backgroundColor = "#ffb74d"
+        texto.style.backgroundColor = "rgba(255, 183, 77, 0.1)"
         texto.style.color = "black"
 })
 

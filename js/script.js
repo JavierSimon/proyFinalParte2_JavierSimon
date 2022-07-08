@@ -1,5 +1,6 @@
 // Piedra papel o tijera
 
+
 //? DOM
 const btnPiedra = document.getElementById("piedra");
 const btnPapel = document.getElementById("papel");
@@ -242,8 +243,13 @@ let playGame = (opcionUsuario) => {
         fnVersus()
         resultadoFinal()
     } else {
-        h1.innerHTML = "¡¡¡Te olvidaste de ingresar el nombre!!! ⬇️"
-        h1.style.color = "red"
+        // h1.innerHTML = "¡¡¡Te olvidaste de ingresar el nombre!!! ⬇️"
+        // h1.style.color = "red"
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Te has olvidado del nombre',
+          })  
     }
 }
 
